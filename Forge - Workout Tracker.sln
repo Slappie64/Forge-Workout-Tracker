@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge - Workout Tracker", "Forge - Workout Tracker.csproj", "{F95444E1-1F9A-49D1-8FC7-F7DDB8D40BB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F95444E1-1F9A-49D1-8FC7-F7DDB8D40BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95444E1-1F9A-49D1-8FC7-F7DDB8D40BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95444E1-1F9A-49D1-8FC7-F7DDB8D40BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95444E1-1F9A-49D1-8FC7-F7DDB8D40BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E7B7010-67AD-4C3B-B09C-FB8E58AFD396}
+	EndGlobalSection
+EndGlobal
