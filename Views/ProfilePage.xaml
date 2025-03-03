@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="ForgeWorkoutTracker.Views.Profile"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ForgeWorkoutTracker.Views">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label Text="Welcome to Forge!" FontSize="24" FontAttributes="Bold" />
+            <!-- Add additional UI components here -->
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

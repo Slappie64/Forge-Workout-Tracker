@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell
+    x:Class="ForgeWorkoutTracker.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ForgeWorkoutTracker.Views"
+    FlyoutBehavior="Flyout">
+
+    <!-- Home Page -->
+    <FlyoutItem Title="Home" Icon="home.png">
+        <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
+    </FlyoutItem>
+
+    <!-- Create Workout Page -->
+    <FlyoutItem Title="Forge Workout" Icon="forge.png">
+        <ShellContent ContentTemplate="{DataTemplate views:CreateWorkout}" />
+    </FlyoutItem>
+
+    <!-- History Page -->
+    <FlyoutItem Title="History" Icon="history.png">
+        <ShellContent ContentTemplate="{DataTemplate views:History}" />
+    </FlyoutItem>
+
+    <!-- Progress Page -->
+    <FlyoutItem Title="Progress" Icon="progress.png">
+        <ShellContent ContentTemplate="{DataTemplate views:Progress}" />
+    </FlyoutItem>
+
+    <!-- Profile Page -->
+    <FlyoutItem Title="Profile" Icon="profile.png">
+        <ShellContent ContentTemplate="{DataTemplate views:Profile}" />
+    </FlyoutItem>
+
+    <!-- Login Page Route -->
+    <ShellContent Route="Login" ContentTemplate="{DataTemplate views:Login}" />
+
+</Shell>

@@ -61,6 +61,8 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.2" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
@@ -71,6 +73,51 @@
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
         <PackageReference Include="MudBlazor" Version="8.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\WorkoutDetails.xaml.cs">
+        <DependentUpon>WorkoutDetails.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\ProfilePage.xaml.cs">
+        <DependentUpon>ProfilePage.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\Progress.xaml.cs">
+        <DependentUpon>Progress.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\HistoryPage.xaml.cs">
+        <DependentUpon>HistoryPage.xaml</DependentUpon>
+      </Compile>
+      <Compile Update="Views\CreateWorkoutPage.xaml.cs">
+        <DependentUpon>CreateWorkoutPage.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <MauiXaml Update="AppShell.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\Login.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\WorkoutDetails.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\ProfilePage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\Progress.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\HistoryPage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\CreateWorkoutPage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
+      <MauiXaml Update="Views\HomePage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
     </ItemGroup>
 
 </Project>
